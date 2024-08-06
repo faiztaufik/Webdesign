@@ -1,0 +1,113 @@
+.font {
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar dan footer */
+.mt-n1 {
+    margin-top: -1rem;
+}
+
+.gambar {
+    transition: transform 0.3s ease;
+}
+
+.gambar:hover {
+    transform: scale(1.1);
+}
+
+.poter {
+    transition: transform 6s ease;
+}
+
+.poter:hover {
+    color: #d6d6d6;
+    padding-left: 8px;
+}
+/* hanif */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+
+  caption {
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-align: start;
+  }
+
+  thead tr th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  tbody tr td {
+    padding: 10px;
+  }
+
+  tr {
+    background-color: #e0f7fa;
+    border-bottom: 1px solid rgb(161, 161, 161);
+  }
+
+  tbody tr:nth-of-type(even) {
+    background-color: white;
+  }
+
+  th,
+  td {
+    padding: 12px 15px;
+  }
+
+  #dokter {
+    max-width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 80px !important;    
+  }
+  /* adam */
+  .img-box {
+    margin: 20px 0px;
+    position: relative;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.img-box .img-open {
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(22, 150, 231, 0.80);
+    display: block;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 350ms ease all;
+    transition: 350ms ease all;
+}
+
+.img-box:hover .img-open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.img-box .img-open i {
+    color: #fff;
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
